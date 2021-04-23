@@ -17,6 +17,9 @@ public class main {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //輸入網址
         HttpGet httpGet = new HttpGet(url);
+        //偽裝Chrome發送請求避免被擋
+        httpGet.setHeader("User-Agent",
+                "Mozilla/5.0 (Linux; Android 11; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85");
         //發送請求
         CloseableHttpResponse httpResponse = null;
         try {
@@ -25,6 +28,7 @@ public class main {
             e.printStackTrace();
         }
         //響應結果
+        assert httpResponse != null;
         HttpEntity httpEntity = httpResponse.getEntity();
         //解析結果
         String result = null;

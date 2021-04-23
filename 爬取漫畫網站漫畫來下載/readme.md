@@ -13,4 +13,4 @@
 
 更新:發現網站的反爬蟲機制，每過十頁要重新連線到漫畫頁面解析js才可以繼續訪問圖片API，此處不再更新，若欲取得修正版本，請參見以下我寫的另一個優化專案
 
-[](https://github.com/afan0918/reptile/tree/main/%E7%88%AC%E5%8F%96%E6%BC%AB%E7%95%AB%E7%B6%B2%E7%AB%99%E6%BC%AB%E7%95%AB%E4%BE%86%E4%B8%8B%E8%BC%89%E5%88%B0%E6%9C%AC%E5%9C%B0(%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92)
+[其實就放在另外一個資料夾啦哈哈](https://github.com/afan0918/reptile/tree/main/%E7%88%AC%E5%8F%96%E6%BC%AB%E7%95%AB%E7%B6%B2%E7%AB%99%E6%BC%AB%E7%95%AB%E4%BE%86%E4%B8%8B%E8%BC%89%E5%88%B0%E6%9C%AC%E5%9C%B0(%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92))

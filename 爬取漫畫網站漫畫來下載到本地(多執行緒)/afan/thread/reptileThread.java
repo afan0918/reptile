@@ -11,6 +11,9 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.X509Certificate;
 
+/**
+ * @author Afan Chen
+ */
 public class reptileThread extends Thread{
     private int page;
     private String url;

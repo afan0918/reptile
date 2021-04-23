@@ -8,6 +8,9 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 import java.util.Scanner;
 
+/**
+ * @author Afan Chen
+ */
 public class Main {
     public static void main(String[] args) {
         WebClient webClient = new WebClient(BrowserVersion.CHROME);//建立一個模擬器模擬chrome
